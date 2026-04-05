@@ -4,8 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 
-def plot_decision_regions(X, y, model, X_test=None, y_test=None, resolution=0.01):
-    
+def plot_decision_regions(X, y, model, X_test=None, resolution=0.01):
     # color map
     colors = ('red', 'blue', 'lightgreen', 'gray', 'cyan')
     markers = ('o', 's', '^', 'v', '<')
@@ -38,5 +37,12 @@ def plot_decision_regions(X, y, model, X_test=None, y_test=None, resolution=0.01
         plt.scatter(X_test[:, 0], X_test[:, 1],c='none', edgecolor='black', alpha=1.0,
         linewidth=1, marker='o',s=100, label='Test set')
 
-    
     plt.legend()
+
+
+def plot_loss(n_iter, loss):
+    plt.plot(range(1, n_iter+1), loss, marker='o')
+    plt.xlabel("Number of Iterations")
+    plt.ylabel("Loss Function")
+    plt.tight_layout()
+

@@ -1,0 +1,70 @@
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# 📓 Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# 🔐 Environment / Secrets
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# 📦 Virtual Environment
+# =========================
+venv/
+env/
+.venv/
+ml-env/
+
+# =========================
+# 📊 Data files (IMPORTANT)
+# =========================
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# (optional: keep small sample data)
+!data/sample.csv
+
+# =========================
+# 🧠 Model files
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# =========================
+# 📈 Logs / outputs
+# =========================
+logs/
+*.log
+
+# =========================
+# 🧪 Experiment outputs
+# =========================
+outputs/
+results/
+
+# =========================
+# 🧰 IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# 🍎 OS files
+# =========================
+.DS_Store
+Thumbs.db
