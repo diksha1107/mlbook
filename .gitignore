@@ -1,70 +1,21 @@
-# =========================
-# 🐍 Python
-# =========================
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# =========================
-# 📓 Jupyter
-# =========================
+# Jupyter notebooks
 .ipynb_checkpoints/
 
-# =========================
-# 🔐 Environment / Secrets
-# =========================
-.env
-.env.*
-*.env
-
-# =========================
-# 📦 Virtual Environment
-# =========================
-venv/
-env/
-.venv/
+# Virtual environment
 ml-env/
 
-# =========================
-# 📊 Data files (IMPORTANT)
-# =========================
+# Local data files
 data/
-*.csv
-*.xlsx
-*.parquet
 
-# (optional: keep small sample data)
-!data/sample.csv
-
-# =========================
-# 🧠 Model files
-# =========================
-*.pkl
-*.joblib
-*.h5
-*.model
-
-# =========================
-# 📈 Logs / outputs
-# =========================
-logs/
-*.log
-
-# =========================
-# 🧪 Experiment outputs
-# =========================
-outputs/
-results/
-
-# =========================
-# 🧰 IDE / Editor
-# =========================
+# IDE/editor files
 .vscode/
-.idea/
 
-# =========================
-# 🍎 OS files
-# =========================
+# OS artifacts
 .DS_Store
 Thumbs.db
