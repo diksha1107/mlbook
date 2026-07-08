@@ -33,4 +33,5 @@ mlbook/
 | [src/CH3_SVM.ipynb](src/CH3_SVM.ipynb) | Support Vector Machines |
 | [src/CH3_DecisionTrees.ipynb](src/CH3_DecisionTrees.ipynb) | Decision trees |
 | [src/CH4_DataPreprocessing.ipynb](src/CH4_DataPreprocessing.ipynb) | Data preprocessing and scaling |
-| [src/CH5_DimensionalityReduction.ipynb](src/CH5_DimensionalityReduction.ipynb) | Dimensionality reduction, including PCA, LDA and t-SNE|
+| [src/CH5_DimensionalityReduction.ipynb](src/CH5_DimensionalityReduction.ipynb) | Dimensionality reduction, including PCA, LDA and t-SNE |
+| [src/CH6_FullPipeline.ipynb](src/CH6_FullPipeline.ipynb) | Full pipeline example with preprocessing, KFold cross-validation, and a sample PCA + logistic regression workflow for pipeline demonstration |
