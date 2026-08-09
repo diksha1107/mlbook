@@ -1,29 +1,39 @@
 # mlbook
 
-mlbook is a collection of Jupyter notebooks focused on practical machine learning concepts and hands-on experimentation. The repository is organized around a chapter-style learning path, covering both foundational algorithms and modern evaluation techniques.
+A collection of Jupyter notebooks documenting my journey through *Machine Learning with PyTorch and Scikit-Learn* book.
 
-## Repository structure
+The repository follows the book chapter by chapter, combining implementations, experiments, visualizations, and notes to build an intuitive understanding of machine learning concepts.
 
-- `data/` — local datasets and supporting files
-- `ml-env/` — project-specific Python virtual environment
-- `src/` — main machine learning notebooks organized by chapter
-- `tests/` — scratch and exploratory notebooks
-- `utils/` — helper modules such as plotting utilities
-- `README.md` — project overview
+## Topics
 
-## What this repository contains
+- **Chapter 2 — Classification**
+  - Perceptron
+  - Adaline
+  - Adaline with Stochastic Gradient Descent
 
-- Notebooks for classical machine learning topics, including:
-  - Perceptron and Adaline implementations
-  - Logistic regression and support vector machines
-  - Decision trees and basic scikit-learn workflows
-  - Data preprocessing and feature scaling
-  - Dimensionality reduction techniques such as PCA
-  - Model evaluation, cross-validation, learning curves, and hyperparameter tuning
+- **Chapter 3 — Scikit-Learn**
+  - Logistic Regression
+  - Support Vector Machines
+  - Decision Trees
+  - Random Forests
+  - K-Nearest Neighbors
+  - Scikit-Learn fundamentals
 
-- Supporting helper code for visualization and plotting in `utils/plot_utils.py`
-- Example data and exploratory notebooks in `data/` and `tests/`
+- **Chapter 4 — Data Preprocessing**
+  - Feature scaling
+  - Data transformation
+  - PCA
+  - LDA
 
-## Project focus
+- **Chapter 5 — Model Evaluation**
+  - Training and test sets
+  - Stratified K-Fold Cross-Validation
+  - Pipelines
+  - Learning curves
+  - Validation curves
 
-This project is designed as a study and reference collection for understanding how machine learning models are built, evaluated, and tuned in practice. It emphasizes clear examples, visual insights, and step-by-step experimentation rather than production-ready infrastructure.
+- **Chapter 6 — Model Selection**
+  - Model evaluation
+  - Hyperparameter tuning
+  - Cross-validation
+
