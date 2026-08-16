@@ -37,6 +37,10 @@ The repository follows the book chapter by chapter, combining implementations, e
   - Hyperparameter tuning
   - Cross-validation
 
+- **Chapter 7 — Ensemble Learning**
+  - Majority Voting Classifier
+
+
 ## License
 
 Copyright (c) 2026 Diksha Patil. Licensed under the [MIT License](LICENSE).
